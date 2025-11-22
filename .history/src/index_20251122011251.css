@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@import "tailwindcss/theme" layer(theme);
+@theme {
+  --color-primary: #2D3A3A;
+  --color-forest:#386641;
+  --color-green:#345A41;
+  --color-secondary: #8DB098;
+  --color-Terracotta: #C27357;
+  --color-sky:#B0D0D3;
+  --font-cairo: "Cairo", sans-serif;
+  --spacing-128: 32rem;
+}
+
+/* ----- BASE ----- */
+@layer base {
+  body {
+    @apply  bg-[#F9FAF1] text-gray-900;
+    height:
+  }
+}
+
+/* ----- COMPONENTS ----- */
+@layer components {
+  .btn {
+    @apply bg-primary text-white px-4 py-2 rounded-full cursor-pointer ;
+  }
+  .btn-green{
+    @apply bg-green ;
+  }
+
+  .card {
+    @apply bg-white p-6 rounded-xl shadow;
+  }
+  
+}
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 8px;
+  height:10px;
+}
+
+/* Scrollbar track  */
+::-webkit-scrollbar-track {
+  background: #2D3A3A; 
+  border-radius: 8px;
+}
+
+/* Scrollbar thumb  */
+::-webkit-scrollbar-thumb {
+  background-color: #8DB098; 
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #789983;
+}
+
+.container{
+  width:90%;
+  margin:0 auto;
+}
