@@ -1,5 +1,6 @@
 import BestSeller from '../components/layout/BestSeller'
 import DeliveryCard from '../components/layout/DeliveryCard'
+import Footer from '../components/layout/Footer'
 import Hero from '../components/layout/Hero'
 import Navbar from '../components/layout/Navbar'
 import Subscribtion from '../components/layout/Subscribtion'
@@ -14,6 +15,7 @@ const Home = () => {
         <BestSeller/>
         <Testimonials/>
         <Subscribtion/>
+        <Footer/>
     </div>
   )
 }
