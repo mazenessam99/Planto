@@ -1,6 +1,6 @@
 import React from "react";
 import { BESTSELLER_CARDS } from "../../utils/constants";
-import ProductCard from "../ui/ProductCard";
+import ProductCard from "../../components/ProductCard";
 
 const BestSeller = () => {
     return (

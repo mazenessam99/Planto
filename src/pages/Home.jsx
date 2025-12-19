@@ -1,22 +1,22 @@
-import BestSeller from '../components/layout/BestSeller'
-import DeliveryCard from '../components/layout/DeliveryCard'
+import BestSeller from '../Sections/Home/BestSeller'
+import DeliveryCard from '../Sections/Home/DeliveryCard'
 import Footer from '../components/layout/Footer'
-import Hero from '../components/layout/Hero'
+import Hero from '../Sections/Home/Hero'
 import Navbar from '../components/layout/Navbar'
-import Subscribtion from '../components/layout/Subscribtion'
-import Testimonials from '../components/layout/Testimonials'
+import Subscribtion from '../Sections/Home/Subscribtion'
+import Testimonials from '../Sections/Home/Testimonials'
 
 const Home = () => {
   return (
-    <div>
-        <Navbar/>
+    <main>
+        
         <Hero/>
         <DeliveryCard/>
         <BestSeller/>
         <Testimonials/>
         <Subscribtion/>
-        <Footer/>
-    </div>
+        
+    </main>
   )
 }
 

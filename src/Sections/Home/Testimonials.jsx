@@ -1,6 +1,6 @@
 
 import { CUSTOMERS_CARDS } from "../../utils/constants"
-import Stars from "../ui/Stars"
+import Stars from "../../components/ui/Stars"
 
 
 const Testimonials = () => {
