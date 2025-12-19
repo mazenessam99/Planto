@@ -29,6 +29,7 @@ export default function NotFound() {
                     animate={{
                         opacity: 1,
                         y: [0,-15,0], 
+                        color: ["#3a5f0b", "#6fcf97", "#3a5f0b"]
                     }}
                     transition={{
                         delay: 1,
